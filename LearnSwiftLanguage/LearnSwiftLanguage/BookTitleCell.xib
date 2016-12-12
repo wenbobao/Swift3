@@ -18,15 +18,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8b-k9-XHh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8b-k9-XHh">
+                        <rect key="frame" x="20" y="0.0" width="300" height="43.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="a8b-k9-XHh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6XA-rf-2w3"/>
+                    <constraint firstItem="a8b-k9-XHh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="6XA-rf-2w3"/>
                     <constraint firstAttribute="bottom" secondItem="a8b-k9-XHh" secondAttribute="bottom" id="i9P-fd-i8E"/>
                     <constraint firstAttribute="trailing" secondItem="a8b-k9-XHh" secondAttribute="trailing" id="kUB-NU-E5o"/>
                     <constraint firstItem="a8b-k9-XHh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wnB-sZ-e4b"/>

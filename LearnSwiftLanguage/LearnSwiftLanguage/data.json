@@ -1,1 +1,129 @@
-
+{
+    "swift": [
+              {
+              "id": "1",
+              "name": "基础内容",
+              "url": "https://www.cnswift.org/the-basics"
+              },
+              {
+              "id": "2",
+              "name": "基本运算符",
+              "url": "https://www.cnswift.org/basic-operators"
+              },
+              {
+              "id": "3",
+              "name": "字符串和字符",
+              "url": "https://www.cnswift.org/strings-and-characters"
+              },
+              {
+              "id": "4",
+              "name": "集合类型",
+              "url": "https://www.cnswift.org/collection-types"
+              },
+              {
+              "id": "5",
+              "name": "控制流",
+              "url": "https://www.cnswift.org/control-flow"
+              },
+              {
+              "id": "6",
+              "name": "函数",
+              "url": "https://www.cnswift.org/functions"
+              },
+              {
+              "id": "7",
+              "name": "闭包",
+              "url": "https://www.cnswift.org/closures"
+              },
+              {
+              "id": "8",
+              "name": "枚举",
+              "url": "https://www.cnswift.org/enumerations"
+              },
+              {
+              "id": "9",
+              "name": "类和结构体",
+              "url": "https://www.cnswift.org/classes-and-structures"
+              },
+              {
+              "id": "10",
+              "name": "属性",
+              "url": "https://www.cnswift.org/properties"
+              },
+              {
+              "id": "11",
+              "name": "方法",
+              "url": "https://www.cnswift.org/methods"
+              },
+              {
+              "id": "12",
+              "name": "下标",
+              "url": "https://www.cnswift.org/subscripts"
+              },
+              {
+              "id": "13",
+              "name": "继承",
+              "url": "https://www.cnswift.org/inheritance"
+              },
+              {
+              "id": "14",
+              "name": "初始化",
+              "url": "https://www.cnswift.org/initialization"
+              },
+              {
+              "id": "15",
+              "name": "反初始化",
+              "url": "https://www.cnswift.org/deinitialization"
+              },
+              {
+              "id": "16",
+              "name": "自动引用计数",
+              "url": "https://www.cnswift.org/automatic-reference-counting"
+              },
+              {
+              "id": "17",
+              "name": "可选链",
+              "url": "https://www.cnswift.org/optional-chaining"
+              },
+              {
+              "id": "18",
+              "name": "错误处理",
+              "url": "https://www.cnswift.org/error-handling"
+              },
+              {
+              "id": "19",
+              "name": "类型转换",
+              "url": "https://www.cnswift.org/type-casting"
+              },
+              {
+              "id": "20",
+              "name": "内嵌类型",
+              "url": "https://www.cnswift.org/nested-types"
+              },
+              {
+              "id": "21",
+              "name": "扩展",
+              "url": "https://www.cnswift.org/extensions"
+              },
+              {
+              "id": "22",
+              "name": "协议",
+              "url": "https://www.cnswift.org/protocols"
+              },
+              {
+              "id": "23",
+              "name": "泛型*",
+              "url": "https://www.cnswift.org/generics"
+              },
+              {
+              "id": "24",
+              "name": "访问控制*",
+              "url": "https://www.cnswift.org/access-control"
+              },
+              {
+              "id": "25",
+              "name": "高级运算符",
+              "url": "https://www.cnswift.org/advanced-operators"
+              }
+              ]
+}
