@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4079A191DFE94F8000D6DC1 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4079A181DFE94F8000D6DC1 /* BlogViewController.m */; };
 		C4744EDB1DD31F1B00DA143A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4744EDA1DD31F1B00DA143A /* main.m */; };
 		C4744EDE1DD31F1B00DA143A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4744EDD1DD31F1B00DA143A /* AppDelegate.m */; };
 		C4744EE11DD31F1B00DA143A /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4744EE01DD31F1B00DA143A /* BookViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4079A171DFE94F8000D6DC1 /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		C4079A181DFE94F8000D6DC1 /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
 		C4744ED61DD31F1B00DA143A /* LearnSwiftLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4744EDA1DD31F1B00DA143A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4744EDC1DD31F1B00DA143A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				C4744EDD1DD31F1B00DA143A /* AppDelegate.m */,
 				C4744EDF1DD31F1B00DA143A /* BookViewController.h */,
 				C4744EE01DD31F1B00DA143A /* BookViewController.m */,
+				C4079A171DFE94F8000D6DC1 /* BlogViewController.h */,
+				C4079A181DFE94F8000D6DC1 /* BlogViewController.m */,
 				C48172AB1DD3231D0087B736 /* BookTitleCell.h */,
 				C48172AC1DD3231D0087B736 /* BookTitleCell.m */,
 				C48172AD1DD3231D0087B736 /* BookTitleCell.xib */,
@@ -166,6 +171,7 @@
 			files = (
 				C4744EE11DD31F1B00DA143A /* BookViewController.m in Sources */,
 				C4744EDE1DD31F1B00DA143A /* AppDelegate.m in Sources */,
+				C4079A191DFE94F8000D6DC1 /* BlogViewController.m in Sources */,
 				C4744EDB1DD31F1B00DA143A /* main.m in Sources */,
 				C48172AE1DD3231D0087B736 /* BookTitleCell.m in Sources */,
 			);
