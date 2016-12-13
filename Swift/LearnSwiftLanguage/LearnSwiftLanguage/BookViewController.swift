@@ -8,33 +8,28 @@
 
 import UIKit
 import Foundation
+import SafariServices
 
 class BookViewController: UITableViewController {
 
-    var dataSource = [Dictionary]()
+    var dataSource: [[String : AnyObject]] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.title = "swift基础语法";
 
-        let nib = UINib.init(nibName: "BookTitleCell", bundle: nil)
-        self.tableView.register(nib, forCellReuseIdentifier: "BookTitleCell")
-        
         let file = Bundle.main.path(forResource: "data", ofType: "json")
         let url = URL(fileURLWithPath: file!)
-        let data = try! Data(contentsOf: url)
-        let json = try! JSONSerialization.jsonObject(with: data)
         
-        print(json)
-        
-        if let stationArray = json["station"].array {
-            
-            for stationJSON in stationArray {
-                self.dataSource.append(stationJSON)
+        do {
+            let data = try Data(contentsOf: url)
+            let allBooks = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as! [String : AnyObject]
+            if let arrJSON = allBooks["swift"] {
+                dataSource = arrJSON as! [[String : AnyObject]]
             }
-
-        } else {
+        }
+        catch {
             
         }
     }
@@ -49,6 +44,13 @@ class BookViewController: UITableViewController {
         cell.bookNameLabel.text = self.dataSource[indexPath.row]["name"] as? String
 
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let bookurl = self.dataSource[indexPath.row]["url"] as? String
+        
+        present(SFSafariViewController.init(url: URL.init(string: bookurl!)!), animated: true, completion: nil)
     }
 
 }
