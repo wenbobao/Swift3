@@ -9,6 +9,7 @@
 #import "BookViewController.h"
 #import "BookTitleCell.h"
 #import <SafariServices/SafariServices.h>
+#import "YDHTTPSessionManager.h"
 
 @interface BookViewController ()
 @property (strong, nonatomic) NSMutableArray *dataSource;
@@ -27,6 +28,11 @@
     NSDictionary *data = [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingAllowFragments error:nil];
     
     self.dataSource = data[@"swift"];
+    
+//    [[YDHTTPSessionManager sharedManager]requestDataWithPath:@"https://www.cnswift.org/" andBlock:^(id data, NSError *error) {
+//        NSString *retStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+//        NSLog(@"html = %@",retStr);
+//    }];
     
 }
 

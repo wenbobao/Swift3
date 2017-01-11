@@ -48,11 +48,11 @@
             </objects>
             <point key="canvasLocation" x="-1195" y="495"/>
         </scene>
-        <!--博客-->
+        <!--知乎-->
         <scene sceneID="fMg-o7-PeW">
             <objects>
                 <navigationController id="jYP-Uh-ync" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="博客" id="r7C-XI-qKN"/>
+                    <tabBarItem key="tabBarItem" title="知乎" id="r7C-XI-qKN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2wq-vT-j8z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

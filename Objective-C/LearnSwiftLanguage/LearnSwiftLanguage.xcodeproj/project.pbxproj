@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C4079A191DFE94F8000D6DC1 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4079A181DFE94F8000D6DC1 /* BlogViewController.m */; };
+		C453B5531E13AFA000FA4E14 /* YDHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C453B5521E13AFA000FA4E14 /* YDHTTPSessionManager.m */; };
+		C453B5581E13B59300FA4E14 /* YDHTMLParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C453B5571E13B59300FA4E14 /* YDHTMLParseManager.m */; };
 		C4744EDB1DD31F1B00DA143A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4744EDA1DD31F1B00DA143A /* main.m */; };
 		C4744EDE1DD31F1B00DA143A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4744EDD1DD31F1B00DA143A /* AppDelegate.m */; };
 		C4744EE11DD31F1B00DA143A /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4744EE01DD31F1B00DA143A /* BookViewController.m */; };
@@ -17,11 +19,25 @@
 		C4744EF11DD321D100DA143A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C4744EF01DD321D100DA143A /* data.json */; };
 		C48172AE1DD3231D0087B736 /* BookTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C48172AC1DD3231D0087B736 /* BookTitleCell.m */; };
 		C48172AF1DD3231D0087B736 /* BookTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48172AD1DD3231D0087B736 /* BookTitleCell.xib */; };
+		C4A3EABE1E2632A20098B91D /* FakeSafariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3EABD1E2632A20098B91D /* FakeSafariViewController.m */; };
+		C4A3EAC41E2632AE0098B91D /* UITableViewController+DataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3EAC01E2632AD0098B91D /* UITableViewController+DataHandle.m */; };
+		C4A3EAC51E2632AE0098B91D /* NSMutableArray+DataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3EAC21E2632AE0098B91D /* NSMutableArray+DataHandle.m */; };
+		C4A3EAC81E2632B60098B91D /* CellDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3EAC71E2632B60098B91D /* CellDataModel.m */; };
+		C4A3EACA1E2635A60098B91D /* UIWebView+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3EAC91E2635A60098B91D /* UIWebView+JS.m */; };
+		E51F517D05B9FBF14ACB06E7 /* libPods-LearnSwiftLanguage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B338C3D65884836486C0AB73 /* libPods-LearnSwiftLanguage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224DAA5180571DB79DF9DB27 /* Pods-LearnSwiftLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwiftLanguage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnSwiftLanguage/Pods-LearnSwiftLanguage.debug.xcconfig"; sourceTree = "<group>"; };
+		8C183326395F1FB93741822A /* Pods-LearnSwiftLanguage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwiftLanguage.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnSwiftLanguage/Pods-LearnSwiftLanguage.release.xcconfig"; sourceTree = "<group>"; };
+		B338C3D65884836486C0AB73 /* libPods-LearnSwiftLanguage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnSwiftLanguage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4079A171DFE94F8000D6DC1 /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
 		C4079A181DFE94F8000D6DC1 /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		C453B5511E13AFA000FA4E14 /* YDHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHTTPSessionManager.h; sourceTree = "<group>"; };
+		C453B5521E13AFA000FA4E14 /* YDHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHTTPSessionManager.m; sourceTree = "<group>"; };
+		C453B5541E13AFE100FA4E14 /* YDNetWorkConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDNetWorkConst.h; sourceTree = "<group>"; };
+		C453B5561E13B59300FA4E14 /* YDHTMLParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHTMLParseManager.h; sourceTree = "<group>"; };
+		C453B5571E13B59300FA4E14 /* YDHTMLParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHTMLParseManager.m; sourceTree = "<group>"; };
 		C4744ED61DD31F1B00DA143A /* LearnSwiftLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwiftLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4744EDA1DD31F1B00DA143A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4744EDC1DD31F1B00DA143A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,6 +52,16 @@
 		C48172AB1DD3231D0087B736 /* BookTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTitleCell.h; sourceTree = "<group>"; };
 		C48172AC1DD3231D0087B736 /* BookTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTitleCell.m; sourceTree = "<group>"; };
 		C48172AD1DD3231D0087B736 /* BookTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookTitleCell.xib; sourceTree = "<group>"; };
+		C4A3EABC1E2632A20098B91D /* FakeSafariViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeSafariViewController.h; sourceTree = "<group>"; };
+		C4A3EABD1E2632A20098B91D /* FakeSafariViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeSafariViewController.m; sourceTree = "<group>"; };
+		C4A3EABF1E2632AD0098B91D /* UITableViewController+DataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+DataHandle.h"; sourceTree = "<group>"; };
+		C4A3EAC01E2632AD0098B91D /* UITableViewController+DataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+DataHandle.m"; sourceTree = "<group>"; };
+		C4A3EAC11E2632AD0098B91D /* NSMutableArray+DataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DataHandle.h"; sourceTree = "<group>"; };
+		C4A3EAC21E2632AE0098B91D /* NSMutableArray+DataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DataHandle.m"; sourceTree = "<group>"; };
+		C4A3EAC31E2632AE0098B91D /* UIWebView+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+JS.h"; sourceTree = "<group>"; };
+		C4A3EAC61E2632B60098B91D /* CellDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDataModel.h; sourceTree = "<group>"; };
+		C4A3EAC71E2632B60098B91D /* CellDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDataModel.m; sourceTree = "<group>"; };
+		C4A3EAC91E2635A60098B91D /* UIWebView+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+JS.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +69,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51F517D05B9FBF14ACB06E7 /* libPods-LearnSwiftLanguage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6640022680C546D15DDAC7EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				224DAA5180571DB79DF9DB27 /* Pods-LearnSwiftLanguage.debug.xcconfig */,
+				8C183326395F1FB93741822A /* Pods-LearnSwiftLanguage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4AFF1423266476D1EFCEA84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B338C3D65884836486C0AB73 /* libPods-LearnSwiftLanguage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C453B5441E13ACA100FA4E14 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				C453B5551E13B56700FA4E14 /* HtmlParseTool */,
+				C453B5501E13AF8B00FA4E14 /* HttpClient */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		C453B5501E13AF8B00FA4E14 /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				C453B5541E13AFE100FA4E14 /* YDNetWorkConst.h */,
+				C453B5511E13AFA000FA4E14 /* YDHTTPSessionManager.h */,
+				C453B5521E13AFA000FA4E14 /* YDHTTPSessionManager.m */,
+			);
+			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		C453B5551E13B56700FA4E14 /* HtmlParseTool */ = {
+			isa = PBXGroup;
+			children = (
+				C453B5561E13B59300FA4E14 /* YDHTMLParseManager.h */,
+				C453B5571E13B59300FA4E14 /* YDHTMLParseManager.m */,
+			);
+			path = HtmlParseTool;
+			sourceTree = "<group>";
+		};
 		C4744ECD1DD31F1B00DA143A = {
 			isa = PBXGroup;
 			children = (
 				C4744ED81DD31F1B00DA143A /* LearnSwiftLanguage */,
 				C4744ED71DD31F1B00DA143A /* Products */,
+				6640022680C546D15DDAC7EB /* Pods */,
+				B4AFF1423266476D1EFCEA84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,12 +142,23 @@
 		C4744ED81DD31F1B00DA143A /* LearnSwiftLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				C453B5441E13ACA100FA4E14 /* Dependency */,
 				C4744EDC1DD31F1B00DA143A /* AppDelegate.h */,
 				C4744EDD1DD31F1B00DA143A /* AppDelegate.m */,
 				C4744EDF1DD31F1B00DA143A /* BookViewController.h */,
 				C4744EE01DD31F1B00DA143A /* BookViewController.m */,
 				C4079A171DFE94F8000D6DC1 /* BlogViewController.h */,
 				C4079A181DFE94F8000D6DC1 /* BlogViewController.m */,
+				C4A3EAC61E2632B60098B91D /* CellDataModel.h */,
+				C4A3EAC71E2632B60098B91D /* CellDataModel.m */,
+				C4A3EABF1E2632AD0098B91D /* UITableViewController+DataHandle.h */,
+				C4A3EAC01E2632AD0098B91D /* UITableViewController+DataHandle.m */,
+				C4A3EAC11E2632AD0098B91D /* NSMutableArray+DataHandle.h */,
+				C4A3EAC21E2632AE0098B91D /* NSMutableArray+DataHandle.m */,
+				C4A3EAC31E2632AE0098B91D /* UIWebView+JS.h */,
+				C4A3EAC91E2635A60098B91D /* UIWebView+JS.m */,
+				C4A3EABC1E2632A20098B91D /* FakeSafariViewController.h */,
+				C4A3EABD1E2632A20098B91D /* FakeSafariViewController.m */,
 				C48172AB1DD3231D0087B736 /* BookTitleCell.h */,
 				C48172AC1DD3231D0087B736 /* BookTitleCell.m */,
 				C48172AD1DD3231D0087B736 /* BookTitleCell.xib */,
@@ -102,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4744EED1DD31F1B00DA143A /* Build configuration list for PBXNativeTarget "LearnSwiftLanguage" */;
 			buildPhases = (
+				F522643E2A32329CFDB6277E /* [CP] Check Pods Manifest.lock */,
 				C4744ED21DD31F1B00DA143A /* Sources */,
 				C4744ED31DD31F1B00DA143A /* Frameworks */,
 				C4744ED41DD31F1B00DA143A /* Resources */,
+				5E5B2A1EE10E1106CA367F8A /* [CP] Embed Pods Frameworks */,
+				37ABFEA2ED644FC84FDB1560 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,8 +214,8 @@
 				TargetAttributes = {
 					C4744ED51DD31F1B00DA143A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = US2MQV3928;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = XJ4JAG9GC7;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -164,16 +252,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37ABFEA2ED644FC84FDB1560 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnSwiftLanguage/Pods-LearnSwiftLanguage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5B2A1EE10E1106CA367F8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnSwiftLanguage/Pods-LearnSwiftLanguage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F522643E2A32329CFDB6277E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4744ED21DD31F1B00DA143A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A3EACA1E2635A60098B91D /* UIWebView+JS.m in Sources */,
+				C4A3EAC41E2632AE0098B91D /* UITableViewController+DataHandle.m in Sources */,
+				C4A3EAC51E2632AE0098B91D /* NSMutableArray+DataHandle.m in Sources */,
+				C4A3EAC81E2632B60098B91D /* CellDataModel.m in Sources */,
 				C4744EE11DD31F1B00DA143A /* BookViewController.m in Sources */,
+				C4A3EABE1E2632A20098B91D /* FakeSafariViewController.m in Sources */,
 				C4744EDE1DD31F1B00DA143A /* AppDelegate.m in Sources */,
+				C453B5531E13AFA000FA4E14 /* YDHTTPSessionManager.m in Sources */,
 				C4079A191DFE94F8000D6DC1 /* BlogViewController.m in Sources */,
 				C4744EDB1DD31F1B00DA143A /* main.m in Sources */,
 				C48172AE1DD3231D0087B736 /* BookTitleCell.m in Sources */,
+				C453B5581E13B59300FA4E14 /* YDHTMLParseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,27 +434,35 @@
 		};
 		C4744EEE1DD31F1B00DA143A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224DAA5180571DB79DF9DB27 /* Pods-LearnSwiftLanguage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = US2MQV3928;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XJ4JAG9GC7;
 				INFOPLIST_FILE = LearnSwiftLanguage/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.LearnSwiftLanguage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philamlife.ipos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5430918a-edbf-4d00-8bbe-52f359970917";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development All 20161123";
 			};
 			name = Debug;
 		};
 		C4744EEF1DD31F1B00DA143A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C183326395F1FB93741822A /* Pods-LearnSwiftLanguage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = US2MQV3928;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = XJ4JAG9GC7;
 				INFOPLIST_FILE = LearnSwiftLanguage/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.LearnSwiftLanguage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philamlife.ipos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "06d357a1-eba0-44fc-893d-ac857be31233";
+				PROVISIONING_PROFILE_SPECIFIER = "Philam Life iPoS Distribution 20161114";
 			};
 			name = Release;
 		};
