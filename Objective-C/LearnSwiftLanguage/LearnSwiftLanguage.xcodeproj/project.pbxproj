@@ -142,9 +142,9 @@
 		C4744ED81DD31F1B00DA143A /* LearnSwiftLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				C4BF31D91E27568800E48EBB /* ZhiHu */,
+				C4BF31D81E27566300E48EBB /* Learn Swift */,
 				C453B5441E13ACA100FA4E14 /* Dependency */,
-				C4744EDC1DD31F1B00DA143A /* AppDelegate.h */,
-				C4744EDD1DD31F1B00DA143A /* AppDelegate.m */,
 				C4744EDF1DD31F1B00DA143A /* BookViewController.h */,
 				C4744EE01DD31F1B00DA143A /* BookViewController.m */,
 				C4079A171DFE94F8000D6DC1 /* BlogViewController.h */,
@@ -163,10 +163,6 @@
 				C48172AC1DD3231D0087B736 /* BookTitleCell.m */,
 				C48172AD1DD3231D0087B736 /* BookTitleCell.xib */,
 				C4744EF01DD321D100DA143A /* data.json */,
-				C4744EE21DD31F1B00DA143A /* Main.storyboard */,
-				C4744EE51DD31F1B00DA143A /* Assets.xcassets */,
-				C4744EE71DD31F1B00DA143A /* LaunchScreen.storyboard */,
-				C4744EEA1DD31F1B00DA143A /* Info.plist */,
 				C4744ED91DD31F1B00DA143A /* Supporting Files */,
 			);
 			path = LearnSwiftLanguage;
@@ -175,9 +171,29 @@
 		C4744ED91DD31F1B00DA143A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4744EDC1DD31F1B00DA143A /* AppDelegate.h */,
+				C4744EDD1DD31F1B00DA143A /* AppDelegate.m */,
+				C4744EE21DD31F1B00DA143A /* Main.storyboard */,
+				C4744EEA1DD31F1B00DA143A /* Info.plist */,
+				C4744EE51DD31F1B00DA143A /* Assets.xcassets */,
+				C4744EE71DD31F1B00DA143A /* LaunchScreen.storyboard */,
 				C4744EDA1DD31F1B00DA143A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4BF31D81E27566300E48EBB /* Learn Swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Learn Swift";
+			sourceTree = "<group>";
+		};
+		C4BF31D91E27568800E48EBB /* ZhiHu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZhiHu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

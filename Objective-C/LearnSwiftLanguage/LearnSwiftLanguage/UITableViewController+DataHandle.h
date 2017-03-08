@@ -10,8 +10,8 @@
 
 @interface UITableViewController (DataHandle)
 
--(void)reloadbyComparingDataWithTableView:(UITableView*)tableView oldData:(NSArray*)oldData newData:(NSArray*)newData key:(NSString*)key;
--(void)setContentToDeviceWithContent:(NSArray*)content key:(NSString*)key;
--(NSArray*)getContentFromDeviceWithKey:(NSString*)key;
+- (void)reloadbyComparingDataWithTableView:(UITableView*)tableView oldData:(NSArray*)oldData newData:(NSArray*)newData key:(NSString*)key;
+- (void)setContentToDeviceWithContent:(NSArray*)content key:(NSString*)key;
+- (NSArray*)getContentFromDeviceWithKey:(NSString*)key;
 
 @end

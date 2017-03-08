@@ -12,6 +12,6 @@
 
 @property(nonatomic, strong) NSURL *url;
 
--(instancetype)initWithUrl:(NSURL*)url;
+- (instancetype)initWithUrl:(NSURL*)url;
     
 @end

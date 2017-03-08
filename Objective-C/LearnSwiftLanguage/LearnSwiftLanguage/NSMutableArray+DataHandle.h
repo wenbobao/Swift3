@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSMutableArray (DataHandle)
--(void)setByDataWithTitles:(NSArray*)titles links:(NSArray*)links;
+- (void)setByDataWithTitles:(NSArray*)titles links:(NSArray*)links;
 @end

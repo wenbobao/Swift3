@@ -15,11 +15,11 @@
 #import "CellDataModel.h"
 #import "BookTitleCell.h"
 
-@interface BlogViewController ()
+@interface BlogViewController () <UIWebViewDelegate>
 
-@property(nonatomic, strong) UIWebView *webview;
-@property(nonatomic, strong) NSMutableArray *tableData;
-@property(nonatomic, strong) NSString *key;
+@property (nonatomic, strong) UIWebView *webview;
+@property (nonatomic, strong) NSMutableArray *tableData;
+@property (nonatomic, strong) NSString *key;
 
 @end
 

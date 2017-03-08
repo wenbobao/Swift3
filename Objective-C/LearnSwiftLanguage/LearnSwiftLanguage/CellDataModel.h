@@ -13,6 +13,6 @@
 @property(nonatomic, strong, readwrite) NSString *title;
 @property(nonatomic, strong, readwrite) NSString *link;
 
--(instancetype)initWithTitle:(NSString*)title link:(NSString*)link;
+- (instancetype)initWithTitle:(NSString*)title link:(NSString*)link;
 
 @end

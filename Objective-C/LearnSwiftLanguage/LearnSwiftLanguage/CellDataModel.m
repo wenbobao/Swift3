@@ -10,7 +10,7 @@
 
 @implementation CellDataModel
 
--(instancetype)initWithTitle:(NSString*)title link:(NSString*)link {
+- (instancetype)initWithTitle:(NSString*)title link:(NSString*)link {
     self = [super init];
     if (self) {
         self.title = title;

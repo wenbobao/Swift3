@@ -10,7 +10,6 @@
 #import <WebKit/WebKit.h>
 #import "UIWebView+JS.h"
 
-
 #pragma mark - UIProgressView Category
 @implementation UIProgressView (Frame)
 
@@ -35,7 +34,7 @@
 @implementation FakeSafariViewController
 
 #pragma mark - Init
--(instancetype)initWithUrl:(NSURL*)url {
+- (instancetype)initWithUrl:(NSURL*)url {
     self = [super init];
     if (self) {
         self.url = url;

@@ -11,7 +11,7 @@
 
 @implementation NSMutableArray (DataHandle)
 
--(void)setByDataWithTitles:(NSArray*)titles links:(NSArray*)links {
+- (void)setByDataWithTitles:(NSArray*)titles links:(NSArray*)links {
     // 保证链接与标题数量一致
     if (titles.count == links.count) {
         // 清空

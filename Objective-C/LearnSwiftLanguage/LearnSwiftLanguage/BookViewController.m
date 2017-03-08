@@ -9,10 +9,10 @@
 #import "BookViewController.h"
 #import "BookTitleCell.h"
 #import <SafariServices/SafariServices.h>
-#import "YDHTTPSessionManager.h"
 
-@interface BookViewController ()
+@interface BookViewController () <UIWebViewDelegate>
 @property (strong, nonatomic) NSMutableArray *dataSource;
+@property (strong, nonatomic) UIWebView *webView;
 @end
 
 @implementation BookViewController
@@ -23,18 +23,35 @@
     self.title = @"swift基础语法";
     [self.tableView registerNib:[UINib nibWithNibName:@"BookTitleCell" bundle:nil] forCellReuseIdentifier:@"BookTitleCell"];
     
+    self.webView = [[UIWebView alloc]init];
+    self.webView.delegate = self;
+    
     NSData *JSONData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"data" ofType:@"json"]];
     
     NSDictionary *data = [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingAllowFragments error:nil];
     
     self.dataSource = data[@"swift"];
     
-//    [[YDHTTPSessionManager sharedManager]requestDataWithPath:@"https://www.cnswift.org/" andBlock:^(id data, NSError *error) {
-//        NSString *retStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-//        NSLog(@"html = %@",retStr);
-//    }];
-    
 }
+
+#pragma mark - UIWebViewDelegate
+
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    self.title = @"内容刷新中";
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    self.title = @"swift基础语法";
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    self.title = @"内容获取失败";
+}
+
+#pragma mark - Table View
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

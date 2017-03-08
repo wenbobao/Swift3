@@ -11,7 +11,7 @@
 @implementation UITableViewController (DataHandle)
 
 // 对比新旧数据，决定是否刷新页面
--(void)reloadbyComparingDataWithTableView:(UITableView*)tableView oldData:(NSArray*)oldData newData:(NSArray*)newData key:(NSString*)key{
+- (void)reloadbyComparingDataWithTableView:(UITableView*)tableView oldData:(NSArray*)oldData newData:(NSArray*)newData key:(NSString*)key{
     
     NSSet *oldSet = [NSSet setWithArray:oldData];
     NSSet *newSet = [NSSet setWithArray:newData];
@@ -26,7 +26,7 @@
 }
 
 // 存储数据到本地
--(void)setContentToDeviceWithContent:(NSArray*)content key:(NSString*)key{
+- (void)setContentToDeviceWithContent:(NSArray*)content key:(NSString*)key{
     NSData *encodedObject = [NSKeyedArchiver archivedDataWithRootObject:content];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:encodedObject forKey:key];
@@ -34,7 +34,7 @@
 }
 
 // 从本地获取数据
--(NSArray*)getContentFromDeviceWithKey:(NSString*)key{
+- (NSArray*)getContentFromDeviceWithKey:(NSString*)key{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     if ([[defaults dictionaryRepresentation].allKeys containsObject: key]) {
